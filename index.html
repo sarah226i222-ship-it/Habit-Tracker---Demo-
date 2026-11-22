@@ -413,7 +413,7 @@ const firebaseConfig = {
 };
 const firebaseApp = initializeApp(firebaseConfig);
 const db = getFirestore(firebaseApp);
-const SECRET = "my-garden-2026-kimi-private-key";
+const SECRET = "demo-garden-2026";
 const trackerRef = doc(db, "gardens", SECRET, "trackerData", "main");
 let firstSnapshot = false;
 
